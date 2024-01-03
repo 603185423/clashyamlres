@@ -19,10 +19,14 @@ proxies:
     type: socks5
     server: 127.0.0.1
     port: "15733"
-  - name: Pigcha Linux(15777)
-    type: socks5
+  - name: Pigcha Linux http(15777)
+    type: http
     server: 127.0.0.1
     port: "15777"
+  - name: Pigcha Linux socks5(15778)
+    type: socks5
+    server: 127.0.0.1
+    port: "15778"
 proxy-groups:
   - name: Proxy
     type: select
@@ -30,7 +34,8 @@ proxy-groups:
       - "Pigcha Cli VM(34254)"
       - "Remote Pigcha Cli"
       - "Pigcha Local(15733)"
-      - "Pigcha Linux(15777)"
+      - "Pigcha Linux http(15777)"
+      - "Pigcha Linux socks5(15778)"
   - name: Domestic
     type: select
     proxies:
