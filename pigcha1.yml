@@ -273,6 +273,7 @@ rules:
   - DOMAIN-SUFFIX,yangkeduo.com,Domestic
   - DOMAIN-SUFFIX,zhihu.com,Domestic
   - DOMAIN-SUFFIX,zhimg.com,Domestic
+  - DOMAIN-SUFFIX,senidc.cn,Domestic
   - DOMAIN-SUFFIX,appspot.com,Proxy
   - DOMAIN-SUFFIX,blogger.com,Proxy
   - DOMAIN-SUFFIX,getoutline.org,Proxy
