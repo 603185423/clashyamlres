@@ -40,6 +40,7 @@ proxy-groups:
       - "Pigcha Local(15733)"
       - "Pigcha Linux http(15777)"
       - "Pigcha Linux socks5(15778)"
+      - "Clash Verge(10808)"
   - name: Domestic
     type: select
     proxies:
